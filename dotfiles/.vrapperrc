@@ -1,0 +1,69 @@
+" LEADER AND OTHER MISC SHORTCUTS
+" -------------------------------
+
+" Let the comma be the leader instead of \
+"let mapleader=","
+
+" Let 'jj' be escape
+inoremap jj <esc>
+
+
+" VIM USER INTERFACE
+" ------------------
+
+" Show line numbers
+set number
+
+
+" TABS, BUFFERS, AND WINDOWS
+" --------------------------
+
+" Open a new buffer
+nmap ,T :enew<cr>
+
+" Move to the next buffer
+nmap ,l :bnext<cr>
+
+" Move to the previous buffer
+nmap ,h :bprevious<cr>
+
+" Close the current buffer
+nmap ,bq :bp <BAR> bd #<CR>
+
+" Show all open buffers and their status
+nmap ,bl :ls <CR>
+
+
+" VIM KEY BINDINGS
+" ----------------
+
+" Treat long lines as breaklines
+"map j gj
+"map k gk
+
+
+" TEXT AND TABS
+" -------------
+
+" Use spaces instead of tabs
+set expandtab
+
+" 1 tab == 4 spaces
+set shiftwidth=4
+set tabstop=4
+set softtabstop=4
+
+
+" SEARCHING
+" ---------
+
+" Search as characters are entered
+set incsearch
+
+" Highlight matches
+set hlsearch
+
+" Shortcut to turn off search highlight
+nnoremap ,<space> :nohlsearch<CR>
+
+
