@@ -40,6 +40,9 @@ Plugin 'ervandew/supertab'
 " Emmet-vim - HTML zen
 Plugin 'mattn/emmet-vim'
 
+" Rust support
+Plugin 'rust-lang/rust.vim'
+
 " All plugins initialized
 call vundle#end()
 
