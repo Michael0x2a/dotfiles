@@ -1,6 +1,16 @@
 # dotfiles
 My personal dotfiles and config info
 
+## Usage
+
+To install, run the following:
+
+    $ cd ~
+    $ wget https://raw.githubusercontent.com/Michael0x2a/dotfiles/master/dotfiles/.vimrc
+    $ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+    $ vim +PluginInstall +qall
+    $ mkdir ~/.vim_backup
+
 ## About
 
 This repo is loosely inspired by [this article][0] by Michael Smalley describing how to use git to manage your dotfiles and various other config files.
