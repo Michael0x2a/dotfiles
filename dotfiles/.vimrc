@@ -43,6 +43,9 @@ Plugin 'mattn/emmet-vim'
 " Rust support
 Plugin 'rust-lang/rust.vim'
 
+" Typescript support
+Plugin 'leafgarland/typescript-vim'
+
 " All plugins initialized
 call vundle#end()
 
