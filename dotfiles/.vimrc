@@ -46,6 +46,9 @@ Plugin 'rust-lang/rust.vim'
 " Typescript support
 Plugin 'leafgarland/typescript-vim'
 
+" Dafny support
+Plugin 'mlr-msft/vim-loves-dafny'
+
 " All plugins initialized
 call vundle#end()
 
