@@ -20,3 +20,9 @@ I currently do not have any sort of automated symlink system as described in art
 Because I develop on both Windows _and_ Linux, I'm still working out how to best maintain feature parity between the two.
 
   [0]: http://blog.smalleycreative.com/tutorials/using-git-and-github-to-manage-your-dotfiles/
+
+## Misc notes about setup on macs
+
+The system-install of Vim isn't compiled with clipboard support, among other things. To fix, install vim using Homebrew.
+
+Install that and add `alias vim="...path..."` in `.bash_profile`.
