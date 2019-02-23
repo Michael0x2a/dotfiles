@@ -52,6 +52,9 @@ Plugin 'mlr-msft/vim-loves-dafny'
 " TOML support
 Plugin 'cespare/vim-toml'
 
+" Powershell support
+Plugin 'PProvost/vim-ps1'
+
 " All plugins initialized
 call vundle#end()
 
